@@ -19,3 +19,9 @@ If you have any other issues, please report them [here](https://github.com/zelof
 - [pytube](https://pytube.io/en/latest/) (Used for downloading the videos)
 - [CustomTKinter](https://github.com/TomSchimansky/CustomTkinter) (Used for GUI)
 - [Tutorial that I used for the base of the project](https://youtu.be/NI9LXzo0UY0)
+
+## Roadmap
+- New features
+> Be able to download Shorts videos without having to change anything
+> Theme selector
+> Quality Selector
