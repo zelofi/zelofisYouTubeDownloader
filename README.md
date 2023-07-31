@@ -8,7 +8,7 @@ Download YouTube videos and choose a custom directory!
 - You're unable to download Shorts videos, to fix this issue, go to the video itself, and in the URL, change the "short" keyword in the URL to "watch", and it'll convert it to a normal YouTube video.
 - Age Restricted videos will not download
 
-If you have any other issues, please report them [here[(https://github.com/zelofi/zelofisYouTubeDownloader/issues)
+If you have any other issues, please report them [here](https://github.com/zelofi/zelofisYouTubeDownloader/issues)!
 
 ## Credits
 - [pytube](https://pytube.io/en/latest/) (Used for downloading the videos)
