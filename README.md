@@ -40,3 +40,4 @@ If you have any other issues, please report them [here](https://github.com/zelof
 - New features
 > - Be able to download Shorts videos without having to change anything ❌
 > - Theme selector ❌
+> - Be able to odwnload MP3s aswell ❌
