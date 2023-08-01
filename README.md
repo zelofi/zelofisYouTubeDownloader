@@ -12,6 +12,7 @@ Download YouTube videos and choose a custom directory!
 ## Current Limitations
 - Some YouTube shorts may or may not work
 - Age Restricted videos will not download
+- Sometimes, the app itself may break, so just restart it and it should be fine
 
 If you have any other issues, please report them [here](https://github.com/zelofi/zelofisYouTubeDownloader/issues)!
 
