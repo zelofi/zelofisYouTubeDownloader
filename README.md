@@ -9,6 +9,20 @@ A simple Python application that allows you to download YouTube videos onto your
 ## What can you do with this?
 Download YouTube videos and choose a custom directory!
 
+## How to use it
+- Click the green "Code" button and click, "Download ZIP"
+- Extract the ZIP file
+- Open up "main.py" and you should be good to go!
+![alt text](https://media.discordapp.net/attachments/817524634979008512/1135779743493537792/image.png?width=1007&height=357)
+- If you're experiencing problems however, please do the following.
+> - Open up Command Prompt
+> - And do the following:
+```
+pip install customtkinter
+pip install pytube
+```
+- If you're still experiencing errors, make sure you actually have Python installed. [Python Website[(https://www.python.org/downloads/)
+
 ## Current Limitations
 - Some YouTube shorts may or may not work
 - Age Restricted videos will not download
