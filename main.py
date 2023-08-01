@@ -1,6 +1,7 @@
 import tkinter
 import tkinter.messagebox
 import customtkinter
+import os
 from pytube import YouTube
 
 customtkinter.set_appearance_mode("System")
@@ -13,14 +14,21 @@ def download():
     try:
         ytLink = link.get()
         ytObject = YouTube(ytLink, on_progress_callback=on_progress)
-        video = ytObject.streams.get_highest_resolution()
+
+        if highestQuality.get() == True:
+            video = ytObject.streams.get_highest_resolution()
+        else:
+            video = ytObject.streams.get_lowest_resolution()
 
         title.configure(text="Title: " + ytObject.title, text_color="white")
         finish.configure(text="")
         video.download(directory.get())
         finish.configure(text="Downloaded!", text_color="white")
     except:
-        finish.configure(text="Download Error!", text_color="red")
+        if ytObject.age_restricted == True:
+            finish.configure(text="Download Error! Video is age restricted!", text_color="red")
+        else:
+            finish.configure(text="Download Error!", text_color="red")
 
 def on_progress(stream, chunk, bytes_remaining):
     total_size = stream.filesize
@@ -35,6 +43,7 @@ def on_progress(stream, chunk, bytes_remaining):
 root = customtkinter.CTk()
 root.title("zelofi's YT Downloader")
 root.geometry("1280x720")
+root.iconbitmap(os.path.join("src/images", "youtube.ico"))
 
 header = customtkinter.CTkLabel(master=root, text="zelofi's YT Downloader", font=("Roboto", 36))
 header.pack(padx=10, pady=10)
@@ -50,6 +59,9 @@ directory.pack(padx=10, pady=10)
 
 downloadButton = customtkinter.CTkButton(master=root, text="Download", font=("Roboto", 15), width=320, height=40, command=download)
 downloadButton.pack(padx=10, pady=10)
+
+highestQuality = customtkinter.CTkCheckBox(master=root, text="Highest quality?")
+highestQuality.pack(padx=10, pady=10)
 
 pPercentage = customtkinter.CTkLabel(root, text="0%")
 pPercentage.pack(padx=10, pady=10)
