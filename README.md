@@ -21,7 +21,8 @@ Download YouTube videos and choose a custom directory!
 pip install customtkinter
 pip install pytube
 ```
-- If you're still experiencing errors, make sure you actually have Python installed. [Python Website[(https://www.python.org/downloads/)
+- If you're still experiencing errors, make sure you actually have Python installed. [Python Website](https://www.python.org/downloads/)
+- **A .exe version will be made soon and put in [releases](https://github.com/zelofi/zelofisYouTubeDownloader/releases)
 
 ## Current Limitations
 - Some YouTube shorts may or may not work
