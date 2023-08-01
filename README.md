@@ -1,7 +1,7 @@
 # zelofisYouTubeDownloader
 A simple Python application that allows you to download YouTube videos onto your PC.
 
-![alt text](https://media.discordapp.net/attachments/550079109481627679/1135738943258763304/image.png?width=680&height=595)
+![alt text](https://media.discordapp.net/attachments/817524634979008512/1135774917191803010/image.png?width=618&height=623)
 
 - Please do keep in mind that I'm currently still learning how Python fully works, some things may be a bit iffy however in the future that'll probably change.
 - You're also free to take the source code and modify all of the code as a base for your project!
