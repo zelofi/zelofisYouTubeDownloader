@@ -36,10 +36,9 @@ If you have any other issues, please report them [here](https://github.com/zelof
 - [CustomTKinter](https://github.com/TomSchimansky/CustomTkinter) (Used for GUI)
 - [Tutorial that I used for the base of the project](https://youtu.be/NI9LXzo0UY0)
 
-## Roadmap
-- New features
-> - Be able to download Shorts videos without having to change anything ❌
-> - Theme selector ❌
-> - Be able to odwnload MP3s aswell ❌
-> - Automatic downloading (Takes anything from the clipboard named "youtube" or "youtu.be" and pastes it into the entry and automatically downloads it) ❌
-> - Download full playlists ❌
+## Bucket List
+- Be able to download Shorts videos without having to change anything ❌
+- Theme selector ❌
+- Be able to odwnload MP3s aswell ❌
+- Automatic downloading (Takes anything from the clipboard named "youtube" or "youtu.be" and pastes it into the entry and automatically downloads it) ❌
+- Download full playlists ❌
