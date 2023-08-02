@@ -37,7 +37,6 @@ If you have any other issues, please report them [here](https://github.com/zelof
 - [Tutorial that I used for the base of the project](https://youtu.be/NI9LXzo0UY0)
 
 ## Bucket List
-- Be able to download Shorts videos without having to change anything ❌
 - Theme selector ❌
 - Be able to odwnload MP3s aswell ❌
 - Automatic downloading (Takes anything from the clipboard named "youtube" or "youtu.be" and pastes it into the entry and automatically downloads it) ❌
